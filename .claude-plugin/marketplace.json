@@ -1,0 +1,5 @@
+{
+  "name": "claude-command-centre",
+  "owner": { "name": "bencurtis-miro" },
+  "plugins": [{ "name": "command-centre", "source": "./", "description": "Jarvis-style command centre for Claude Code with an Obsidian vault panel and completion chime." }]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "command-centre",
+  "version": "0.2.0",
+  "description": "A Jarvis-style command centre for Claude Code: vault side panel, status band, toasts, a completion chime and handy slash commands for an Obsidian vault.",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "vaultPath": {
+      "type": "string",
+      "title": "Obsidian vault folder",
+      "description": "Full path to the vault folder holding _index.md, e.g. C:\\Users\\you\\Documents\\Obsidian\\MyVault",
+      "default": ""
+    }
+  }
+}
